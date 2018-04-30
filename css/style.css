@@ -7,14 +7,14 @@ Version : 1.0
 Author  : Surjith S M
 URI     : https://surjithctly.in/
 
-Copyright © All rights Reserved 
+Copyright © All rights Reserved
 
 */
 
 
 /*------------------------
 [TABLE OF CONTENTS]
-    
+
 1. GLOBAL STYLES
 2. NAVBAR
 3. HERO
@@ -247,16 +247,30 @@ header {
 }
 
 .tagline {
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 300;
     color: #ffb8f6;
     max-width: 800px;
     margin: 0 auto;
 }
 
+.carousel-text {
+    position: absolute;
+    color: "white";
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 350px;
+    margin: 0 auto;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .img-holder {
+    position: relative;
+    text-align: center;
     height: 0;
-    padding-bottom: 33%;
+    padding-bottom: 50%;
     overflow: hidden;
 }
 
